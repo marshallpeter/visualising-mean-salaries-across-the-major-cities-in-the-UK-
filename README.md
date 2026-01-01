@@ -1,8 +1,9 @@
 # visualising-mean-salaries-across-the-major-cities-in-the-UK-
 
 Mean salaries info: https://thinkplutus.com/average-uk-salary/
+
 Since there isn't an option to download the datasets direct from the website, 
-we can write the table as csv file. 
+we can write the table as a csv file. 
 
 The article was published on 1 Sept 2025
 
