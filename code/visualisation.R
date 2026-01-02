@@ -24,7 +24,7 @@ salaries
 
 summary(salaries)
 # dataset
-# write the file to your folder setwd(choose.file)
+# write the file to your folder setwd()
 write.csv(salaries, "uk_mean_salaries.csv")
 
 # filter UK from the world.cities dataset contained in the package 'maps'
@@ -58,8 +58,9 @@ plot <- ggplot() +
   theme(plot.title = element_text(face = "bold", color = '#1F618D'))
 
 # save the plot
-# write the file to your folder setwd(choose.file)
+# write the file to your folder setwd()
 ggsave("plot.png", plot, 
        dpi = 400,
        limitsize = TRUE, width = 27, height = 17, units = "cm")
+
 
